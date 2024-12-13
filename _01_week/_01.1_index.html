@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "EN">
+    <head>
+        <title>Dog PhotoApp</title>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Dog Photo App</h1>
+                <h2>Welcome to my website !!</h2>
+                <h2>Dog Photos- </h2>
+                <p>Everyone loves cute dogs pictures</p>
+                <p>Click <a href="https://unsplash.com/s/photos/dogs">here</a> to check out some dog images</p>
+                <img src= static/relaxing-dogs.jpg alt="picture of relaxing dogs" width="300" >
+            </section>
+        </header>
+        <main>
+            <h2>Dog Lists</h2>
+            <section>
+                <h3>Things dogs love:</h3>
+                <ul>
+                    <li>Car rides</li>
+                    <li>Playing fetch</li>
+                    <li>Walks</li>
+                    <li>Toys</li>
+                </ul>
+                <figure>
+                    <img src= static/walking-dog.jpg alt="Image of a walking dog" width="300">
+                    <figcaption>Dog <em>enjoys</em> walking</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h3>Things dogs hate: </h3>
+                <ol>
+                    <li>Loud Noises</li>
+                    <li>Loneliness</li>
+                    <li>Baths</li>
+                </ol>
+                <figure>
+                    <img src=static/dog-lone.webp alt="Dogs hates loneliness" width="300">
+                    <figcaption>Dogs <strong>hates</strong> loneliness</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h3>Dog Form: </h3>
+                <form action="POST">
+                    <fieldset>
+                        <!--  make radio button form -->
+                          <legend>Which environment does your pet dog prefers?</legend>
+                            <label for="outdoor"><input type="radio" name="environment" checked id="outdoor">Outdoor</label>
+                            <label for="indoor"><input type="radio" name="environment" id="indoor">Indoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What is your dogs personality ?</legend>
+                            <!--  make checkbox forms -->
+                              <label for="loving"><input type="checkbox" name="personality" id="loving" value = "loving" checked>Loving</label>
+                              <label for="lazy"><input type="checkbox" name="personality" id="lazy" value = "lazy">Lazy</label>
+                              <label for="energetic"><input type="checkbox" name="personality" id="energetic" value = "energetic">Energetic</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Post picture of your pet: </legend>
+                        <input type="url" name="dogImage" id="dImage" placeholder = "Post picture here">
+                        <!-- make images forms -->
+                    </fieldset>
+                    <button type="submit">Submit form</button required>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>This website was made by someone ig</p>
+        </footer>
+    </body>
+</html>
