@@ -8,29 +8,48 @@
     <body>
         <header>
             <!-- heading -->
+            <h1>Create an Account</h1>
+            <hr>
         </header>
         <main>
             <section>
                 <!-- input name  -->
+                <input type="text" name="name" id="name" placeholder= "Enter your name: " required >
+                <hr>
             </section>
             <section>
                 <!-- input email and password -->
+                <input type="email" name="email" id="email" placeholder="Enter your email: " required>
+                <input type="password" name="fpassword" id="fpassword" required placeholder="Enter password: ">
+                <hr>
             </section>
             <section>
                 <!-- confirm password -->
+                <input type="password" name="cpassword" id="cpassword" required placeholder="Confirm password">
+                <hr>
             </section>
             <section>
                 <!-- any option that give choices to the form-filler -->
+                <input type="radio" name="option1" id="1">option 1
+                <input type="radio" name="option2" id="2">option 2
+                <input type="radio" name="option3" id="3">option 3
+                <hr>
             </section>
             <section>
                 <!-- picture -->
+                <hr>
             </section>
             <section>
                 <!-- dropdown menu -->
+                 <hr>
             </section>
         </main>
         <footer>
             <!-- I accept all the conditions and submit button -->
+             <input type="checkbox" name="terms" id="terms">
+             <p>I accept all the <a href="">terms and conditions</a></p>
+            <button type="submit">Submit</button>
+            <hr>
         </footer>
         
     </body>
