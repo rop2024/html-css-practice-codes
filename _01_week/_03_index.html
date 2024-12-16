@@ -3,6 +3,7 @@
     <head>
         <title>Registration Form</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="_03_styles.css">
     </head>
     <body>
@@ -47,9 +48,11 @@
                             <option value="2">Private</option>
                         </select></label>
                     </fieldset>
-                    <section>
+                    <section class = "terms">
                         <!-- tick button for term and condition and submit button -->
-                        <label for="tandc"><input type="checkbox" name="tandc" id="tandc" required>I accept <a href="">Terms and Conditions</a></label>
+                        
+                        <hr>
+                        <label for="tandc"><input type="checkbox" name="tandc" id="tandc" required> I accept <a href="">Terms and Conditions</a></label>
                         
                         <button type="submit">Submit</button>
                     </section>

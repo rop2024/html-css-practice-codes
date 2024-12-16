@@ -1,0 +1,86 @@
+body
+{
+    background-color: #181C14;
+    color: #ECDFCC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+header
+{
+    text-align: center;
+    padding: auto 16px;
+
+}
+
+header h1
+{
+    margin-bottom: 4px;
+}
+
+form
+{
+    width: 600px;
+    max-width: 600px;
+    margin: 10px auto;
+    min-width: 300px;
+}
+
+fieldset
+{
+    margin: 16px;
+    padding: 8px;
+    background-color: #697565; 
+    border: none;
+    border-radius: 4px;
+}
+
+label
+{
+    display: block;
+    padding: 4px;
+}
+
+.terms
+{
+    text-align: center;
+}
+
+section a 
+{
+    color: #ECDFCC;
+    text-decoration: solid;
+}
+
+footer
+{   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3C3D37;
+    
+}
+
+input, select
+{
+    margin: 10px 0 0 4px;
+    padding: 4px;
+    border : 1px solid #3C3D37;
+    border-radius: 4px;
+    background-color: #3C3D37;
+    color: #ECDFCC;
+}
+
+
+button
+{
+    margin: 16px 0 0 0;
+    padding: 8px 16px;
+    border: #3C3D37;
+    background-color: #3C3D37;
+    color: #ECDFCC;
+    border-radius: 4px;
+    text-decoration: solid;
+
+}
