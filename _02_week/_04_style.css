@@ -26,11 +26,30 @@ header p
 }
 
 
+.gallery
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    gap: 8px;
+
+    margin: 8px 4px;
+
+    max-width: 1600px;
+
+}
+
+
 img
 {
     max-width: 200px;
     margin: 8px 16px;
     object-fit: cover;
+
+    border-radius: 8px;
 }
 
 
