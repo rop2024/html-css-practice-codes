@@ -61,6 +61,8 @@ header img
     width: 600px;
     max-width: 650px;
     border-radius: 16px;
+
+    border-top: 4px solid white;
 }
 
 .quote p
@@ -72,6 +74,56 @@ header img
 
 .awards
 {
-    margin: auto auto;
-    
+    text-align: center;
 }
+
+.awards a
+{
+    color: #84A7A1;
+    text-decoration: underline;
+}
+
+.books
+{
+    margin: 16px auto;
+    width: 600px; 
+    max-width: 650px; 
+    padding: 16px;
+}
+
+.books li a
+{
+    color: #84A7A1;
+}
+
+
+
+footer
+{
+    width: 100%;
+    text-align: center;
+    background-color: #1F6E8C;
+
+    padding: 16px 0;
+    text-align: center;
+
+}
+
+footer p
+{
+    padding: 8px;
+    text-decoration: solid;
+}
+
+a:hover {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+
+
+.books ul {
+    list-style: none; 
+    padding: 0;
+}
+
