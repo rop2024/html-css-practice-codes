@@ -1,0 +1,80 @@
+body
+{
+    /* flushing brower defualts */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* change font in the end */
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(84, 84, 84);
+}
+
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background: linear-gradient(135deg, #8a2be2, #4129e1);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.content
+{
+    flex: 1;
+    text-align: center;
+    color : rgb(235, 235, 235);
+    width: 400px;
+}
+
+.logo
+{
+    width: 128px;
+    height: 128px;
+    background-color: #cacaca;
+    border-radius: 8px;
+    margin: 16px auto;
+}
+
+.info
+{
+    flex:1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input
+{
+    display: block;
+    margin : 8px auto;
+}
+
+input[type="email"]
+{
+    padding: 4px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="button"]
+{
+    padding: 8px;
+    width: 128px;
+    border: none;
+    border-radius: 16px;
+    color: #262626;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: #d6d6d6;
+}
